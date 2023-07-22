@@ -111,7 +111,6 @@ submitBtn.addEventListener("click", () => {
             {
                 quiz.innerHTML = `
                     <h2>You are Great</h2>
-                    <h2>You are a legend</h2>
                     <h2>You answered correctly at ${score}/${quizData.length} questions.</h2>
 
                     <button onclick="location.reload()">Reload</button>
@@ -120,7 +119,6 @@ submitBtn.addEventListener("click", () => {
             else{
                 quiz.innerHTML = `
                     <h2>Good Try! Better luck next time</h2>
-                    <h2>You are a legend</h2>
                     <h2>You answered correctly at ${score}/${quizData.length} questions.</h2>
 
                     <button onclick="location.reload()">Reload</button>
